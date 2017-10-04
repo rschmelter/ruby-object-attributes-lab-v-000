@@ -30,8 +30,8 @@ class Person
     @job
   end
 
-  job=(job_type)
-  @job = job_type
-end
+  def job=(job_type)
+    @job = job_type
+  end
 
 end
